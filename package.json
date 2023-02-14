@@ -1,0 +1,21 @@
+{
+  "name": "Cli-crud-nodejs-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "appcli": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.5.0",
+    "dotenv": "^16.0.3",
+    "inquirer": "^8.2.5",
+    "mongoose": "^6.6.2"
+  }
+}
